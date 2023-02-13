@@ -1,0 +1,141 @@
+.review {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 6px;
+    width: 750px;
+    height: 550px;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.user {
+    margin-bottom: 20px;
+
+}
+
+.user1 {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.user_name {
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 4px 15px;
+}
+
+.rev {
+    margin: 10px 5px;
+    border: 1px solid #546FE7;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #92a4f4;
+}
+
+.rev1 {
+    margin: 10px 5px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #5e87d8;
+}
+
+.user_comment {
+    margin: 5px 0px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+#comment:focus {
+    background-color: #92a4f4;
+}
+
+#comment {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.modal_box {
+    border: 2px thin #546FE7;
+    position: fixed;
+    top: 110px;
+    background-color: whitesmoke;
+    right: 290px;
+    left: auto;
+    border-radius: 20px 20px 0 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.close {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
+}
+
+#watchlist, #open_review, #remwatchlist{
+    width: 100%;
+}
+
+.message_info{
+    position: relative;
+}
+
+.new_message{
+    position: absolute;
+    top: -17px;
+    right: -12px;
+    fill: #d33737;
+    display: none;
+}
+
+#watchlistpanel{
+    width: 200px;
+    position: fixed;
+    right: 0;
+    top: 150px;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.wtchpanel{
+    width: 100%;
+    height: 25px;
+    background-color: #a0aff1;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+
+#chatmovies{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px 0;
+}
+
+.chatname{
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    padding: 0 20px;
+}
+
+.chatname:hover{
+    color: #5e87d8;
+}
+
+.message_icon_chat{
+    display: none;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    fill: #5e87d8;
+}
